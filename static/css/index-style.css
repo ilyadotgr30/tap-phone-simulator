@@ -76,6 +76,7 @@ body {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    margin: 0px;
 }
 
 .up-down-button {
@@ -87,3 +88,10 @@ body {
     font-size: 50px;
 }
 
+ .left-right-button {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 0px;
+ }

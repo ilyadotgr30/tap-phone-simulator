@@ -45,3 +45,9 @@ setInterval(updateDateTime, 1000);
 
 // Вызываем функцию один раз для установки начального времени и даты
 updateDateTime();
+
+// В файле index-script.js
+function redirectToMenu() {
+    // Используйте window.location.href для перенаправления на другую страницу
+    window.location.href = '/menu';
+}

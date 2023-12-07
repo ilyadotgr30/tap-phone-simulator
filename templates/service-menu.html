@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/index-style.css">
+    <link rel="stylesheet" href="../static/css/service-menu-style.css">
     <title>MyPhoneApp</title>
 </head>
 <body>
@@ -17,15 +17,28 @@
             <div id="current-date">
                 <!-- Здесь будет отображаться текущая дата -->
             </div>
+            <div class="menu-type">Служебное меню</div>
+            <ul id="button-list">
+                <li><button class="list-button">Параметры</button></li>
+                <li><button class="list-button">Контроль</button></li>
+                <li><button class="list-button">Работа с информацией</button></li>
+                <li><button class="list-button">Статус абонента</button></li>
+                <li><button class="list-button">Проверка ПО</button></li>
+                <li><button class="list-button">СКН</button></li>
+                <li><button class="list-button">Смена ПИН</button></li>
+                <li><button class="list-button">Открытый режим</button></li>
+                <li><button class="list-button">Bluetooth</button></li>
+
+            </ul>
         </div>
         <div class="phone-button-area">
             <!-- Специальные кнопки наверху -->
             <div class="phone-button-line"> 
-                <button class="phone-button special-button" onclick="redirectToMenu()">Меню</button>
-                <button class="phone-button special-button left-right-button">▲</button>
+                <button class="phone-button special-button">Меню</button>
+                <button class="phone-button special-button left-right-button up-down-button up-button">▲</button>
                 <button class="phone-button special-button ok-button">Ок</button>
-                <button class="phone-button special-button left-right-button">▼</button>
-                <button class="phone-button special-button">Назад</button>
+                <button class="phone-button special-button left-right-button up-down-button down-button">▼</button>
+                <button class="phone-button special-button" onclick="goBack()">Назад</button>
             </div>
             <!-- Остальные кнопки -->
             <div class="phone-button-line"> 
@@ -50,7 +63,7 @@
             </div>
         </div>
     </div>
-    <script src="../static/js/index-script.js"></script>
+    <script src="../static/js/service-menu-script.js"></script>
     
 </body>
 </html>
