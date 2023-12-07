@@ -41,6 +41,26 @@ document.addEventListener('DOMContentLoaded', function () {
     buttons[selectedIndex].classList.add('selected');
 });
 
+function redirectToPhoneBook() {
+    window.location.href = '/menu/phone-book'
+}
+
+function redirectToCalls() {
+    window.location.href = '/menu/calls'
+}
+
+function redirectToWorkWithInformation() {
+    window.location.href = '/menu/work-with-information'
+}
+
+function redirectToService() {
+    window.location.href = '/menu/service'
+}
+
+function redirectToNetworkSelection() {
+    window.location.href = '/menu/network-selection'
+}
+
 function redirectToServiceMenu() {
     window.location.href = '/menu/service-menu'
 }
