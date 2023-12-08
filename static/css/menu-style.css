@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope.ttf");
+  }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -32,7 +37,7 @@ body {
     /*justify-content: center;*/
     text-align: center;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: Manrope, sans-serif;
     overflow-y: auto;
 }
 
@@ -52,11 +57,12 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     background-color: #f8f8f8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease-in-out;
+    font-family: Manrope;
 }
 
 .phone-button:hover {
@@ -67,6 +73,7 @@ body {
 .special-button {
     background-color: #3498db;
     color: #fff;
+    font-size: 14px;
 }
 
 .phone-button-line {
@@ -110,4 +117,9 @@ body {
 
 .list-button.selected {
     background-color: #e46d6d;
+}
+
+.menu-type {
+    font-size: 20px;
+    font-weight: bold;
 }

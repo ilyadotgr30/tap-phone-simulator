@@ -111,3 +111,8 @@ body {
 .list-button.selected {
     background-color: #e46d6d;
 }
+
+.menu-type {
+    font-size: 20px;
+    font-weight: bold;
+}
