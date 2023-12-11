@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     buttons[selectedIndex].classList.add('selected');
 });
 
+// Основное меню
 function redirectToPhoneBook() {
     window.location.href = '/menu/phone-book'
 }
@@ -63,4 +64,29 @@ function redirectToNetworkSelection() {
 
 function redirectToServiceMenu() {
     window.location.href = '/menu/service-menu'
+}
+
+// Служебное меню
+function redirectToSettings() {
+    window.location.href = '/menu/service-menu/settings'
+}
+
+function redirectToControl() {
+    window.location.href = '/menu/service-menu/control'
+}
+
+function redirectToServiceWorkWithInformation() {
+    window.location.href = '/menu/service-menu/work-with-information'
+}
+
+function redirectToSoftwareCheck() {
+    window.location.href = '/menu/service-menu/software-check'
+}
+
+function redirectToCKH() {
+    window.location.href = '/menu/service-menu/CKH'
+}
+
+function redirectToChangePIN() {
+    window.location.href = '/menu/service-menu/change-pin'
 }

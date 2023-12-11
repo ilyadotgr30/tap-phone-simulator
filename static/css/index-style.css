@@ -61,7 +61,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     background-color: rgb(83, 81, 81);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.445);
     transition: background-color 0.3s ease-in-out;
     font-family: Manrope, sans-serif;
     color: white;

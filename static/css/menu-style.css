@@ -16,8 +16,8 @@ body {
 .my-phone-device {
     width: 300px;
     height: 600px;
-    border: 12px solid #2e2c2c;
-    border-radius: 15px;
+    border: 18px solid #2e2c2c;
+    border-radius: 50px;
     overflow: hidden;
     margin: 50px auto;
     background-color: #fff;
@@ -38,6 +38,7 @@ body {
     text-align: center;
     color: #fff;
     font-family: Manrope, sans-serif;
+    border-bottom: 10px solid #2e2c2c ;
     overflow-y: auto;
 }
 
@@ -45,7 +46,8 @@ body {
     height: 300px; 
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    background-color: rgb(77, 75, 75);
 }
 
 .phone-button {
@@ -59,10 +61,11 @@ body {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    background-color: #f8f8f8;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(83, 81, 81);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.322);
     transition: background-color 0.3s ease-in-out;
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
+    color: white;
 }
 
 .phone-button:hover {
@@ -71,7 +74,7 @@ body {
 
 /* Стили для специфических кнопок (Меню, Ок, Назад) */
 .special-button {
-    background-color: #3498db;
+    background-color: #3d6c8b;
     color: #fff;
     font-size: 14px;
 }
@@ -85,6 +88,7 @@ body {
     width: 40px;
     height: 40px;
     margin: 0px;
+    background-color: #2b4658;
 }
 
 #current-time {
@@ -97,6 +101,8 @@ body {
     height: 25px;
     text-align: center;
     margin: 0px;
+    background-color: #2b4658;
+    font-size: 12px;
  }
 
  #button-list {
