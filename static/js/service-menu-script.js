@@ -44,3 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function redirectToDealNumber() {
     window.location.href = '/deal-number'
 }
+
+function redirectToMenu() {
+    window.location.href = '/menu';
+}

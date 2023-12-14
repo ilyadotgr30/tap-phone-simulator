@@ -40,6 +40,27 @@ body {
     font-family: Manrope, sans-serif;
     border-bottom: 10px solid #2e2c2c ;
     overflow-y: auto;
+    position: relative;
+}
+
+.down-screen-buttons {
+    position: absolute;
+    bottom: 0;
+    margin: 15px 10px 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+
+}
+
+.left {
+    background-color: #2f3438;
+    
+}
+
+.right {
+    background-color: #2f3438;
 }
 
 .phone-button-area {

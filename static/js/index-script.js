@@ -54,3 +54,7 @@ function redirectToMenu() {
 function redirectToDealNumber() {
     window.location.href = '/deal-number'
 }
+
+function redirectToPhoneBook() {
+    window.location.href = '/menu/phone-book'
+}

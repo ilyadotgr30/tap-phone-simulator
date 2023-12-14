@@ -27,6 +27,10 @@
                 <li><button class="list-button" onclick="redirectToServiceMenu()">Служебное меню</button></li>
 
             </ul>
+            <div class="down-screen-buttons">
+                <span class="left">Меню</span>
+                <span class="right">Назад</span>
+            </div>
         </div>
         <div class="phone-button-area">
             <!-- Специальные кнопки наверху -->
@@ -37,11 +41,11 @@
                 <button class="phone-button special-button left-right-button up-down-button down-button">▼</button>
                 <button class="phone-button special-button menu-button" onclick="goBack()">-</button>
             </div>
-             <div class="phone-button-line call-line">
-                <button class="phone-button special-button call-button">
+            <div class="phone-button-line call-line">
+                <button class="phone-button special-button call-button" onclick="redirectToDealNumber()">
                     <img src="../static/img/call-ico.png" height="20px">
                 </button>
-                <button class="phone-button special-button cancel-call-button">
+                <button class="phone-button special-button cancel-call-button" onclick="cancelCall()">
                     <img src="../static/img/cancel-call-ico.png" height="23px">
                 </button>
              </div>
