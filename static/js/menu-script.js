@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     buttons[selectedIndex].classList.add('selected');
 });
 
+
 // Основное меню
 function redirectToPhoneBook() {
     window.location.href = '/menu/phone-book'
@@ -90,3 +91,12 @@ function redirectToCKH() {
 function redirectToChangePIN() {
     window.location.href = '/menu/service-menu/change-pin'
 }
+
+function cancelCall() {
+    window.location.href = '/'
+}
+
+function redirectToDealNumber() {
+    window.location.href = '/deal-number'
+}
+

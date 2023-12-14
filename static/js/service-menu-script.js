@@ -40,3 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Выделение первой кнопки при загрузке
     buttons[selectedIndex].classList.add('selected');
 });
+
+function redirectToDealNumber() {
+    window.location.href = '/deal-number'
+}

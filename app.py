@@ -58,6 +58,10 @@ def ckh():
 def change_pin():
     return render_template('change-pin.html')
 
+@app.route('/deal-number')
+def deal_number():
+    return render_template('deal-number.html')
+
 
 
 if __name__ == '__main__':

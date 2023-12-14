@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/menu-style.css">
+    <link rel="stylesheet" href="../static/css/deal-number-style.css">
     <title>MyPhoneApp</title>
 </head>
 <body>
@@ -14,74 +14,64 @@
             <div id="current-time">
                 <!-- Здесь будет отображаться текущее время -->
             </div>
-            <div id="current-date">
-                <!-- Здесь будет отображаться текущая дата -->
-            </div>
-            <div class="menu-type">Вызовы</div>
-            <ul id="button-list">
-                <li><button class="list-button">Непринятные</button></li>
-                <li><button class="list-button">Принятые</button></li>
-                <li><button class="list-button">Набранные</button></li>
-                <li><button class="list-button">Удалить всё</button></li>
-
-            </ul>
+            <input type="text" id="number-input" readonly>
         </div>
         <div class="phone-button-area">
             <!-- Специальные кнопки наверху -->
             <div class="phone-button-line"> 
                 <button class="phone-button special-button menu-button" onclick="redirectToMenu()">Меню</button>
-                <button class="phone-button special-button left-right-button up-down-button up-button">▲</button>
+                <button class="phone-button special-button left-right-button">▲</button>
                 <button class="phone-button special-button ok-button">Ок</button>
-                <button class="phone-button special-button left-right-button up-down-button down-button">▼</button>
-                <button class="phone-button special-button menu-button" onclick="goBack()">Назад</button>
+                <button class="phone-button special-button left-right-button">▼</button>
+                <button class="phone-button special-button menu-button" id="cancelButton">Назад</button>
             </div>
              <div class="phone-button-line call-line">
                 <button class="phone-button special-button call-button">
                     <img src="../static/img/call-ico.png" height="20px">
                 </button>
-                <button class="phone-button special-button cancel-call-button" onclick="cancelCall()">
+                <button class="phone-button special-button cancel-call-button" onclick="redirectToHomePage()">
                     <img src="../static/img/cancel-call-ico.png" height="23px">
                 </button>
              </div>
             <!-- Остальные кнопки -->
             <div class="phone-button-line"> 
-                <button class="phone-button">
+                <button class="phone-button" id="1_button">
                     <span class="first-line">1</span>
                     <span class="second-line"></span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="2_button">
                     <span class="first-line">2</span>
                     <span class="second-line">абвг</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="3_button">
                     <span class="first-line">3</span>
                     <span class="second-line">дежз</span>
                 </button>
             </div>
             <div class="phone-button-line">
-                <button class="phone-button">
+                <button class="phone-button" id="4_button">
                     <span class="first-line">4</span>
                     <span class="second-line">ийкл</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="5_button">
                     <span class="first-line">5</span>
                     <span class="second-line">мноп</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="6_button">
                     <span class="first-line">6</span>
                     <span class="second-line">рсту</span>
                 </button>
             </div>
             <div class="phone-button-line">
-                <button class="phone-button">
+                <button class="phone-button" id="7_button">
                     <span class="first-line">7</span>
                     <span class="second-line">фхцч</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="8_button">
                     <span class="first-line">8</span>
                     <span class="second-line">шщъы</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="9_button">
                     <span class="first-line">9</span>
                     <span class="second-line">ьэюя</span>
                 </button>
@@ -91,7 +81,7 @@
                     <span class="first-line">*</span>
                     <span class="second-line">.</span>
                 </button>
-                <button class="phone-button">
+                <button class="phone-button" id="0_button">
                     <span class="first-line">0</span>
                     <span class="second-line">_</span>
                 </button>
@@ -102,7 +92,7 @@
             </div>
         </div>
     </div>
-    <script src="../static/js/menu-script.js"></script>
+    <script src="../static/js/deal-number-script.js"></script>
     
 </body>
 </html>

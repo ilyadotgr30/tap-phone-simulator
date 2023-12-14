@@ -48,6 +48,9 @@ updateDateTime();
 
 // В файле index-script.js
 function redirectToMenu() {
-    // Используйте window.location.href для перенаправления на другую страницу
     window.location.href = '/menu';
+}
+
+function redirectToDealNumber() {
+    window.location.href = '/deal-number'
 }

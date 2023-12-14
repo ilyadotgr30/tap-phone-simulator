@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope.ttf");
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.my-phone-device {
+    width: 300px;
+    height: 620px;
+    border: 18px solid #2e2c2c;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 50px auto;
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 4px 4px 30px 1px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 4px 4px 30px 1px rgba(0, 0, 0, 0.69);
+    box-shadow: 4px 4px 30px 1px rgba(0, 0, 0, 0.69);
+}
+
+.phone-screen {
+    height: 350px;
+    background-color: #2f3438 ;
+    background-size: cover;
+    padding-top: 7px;
+    /*display: flex;*/
+    align-items: center;
+    /*justify-content: center;*/
+    text-align: center;
+    color: #fff;
+    font-family: Manrope, sans-serif;
+    border-bottom: 10px solid #2e2c2c ;
+}
+
+.phone-button-area {
+    height: 300px; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(77, 75, 75);
+}
+
+.phone-button {
+    width: 70px; /* уменьшен размер */
+    height: 35px; /* уменьшен размер */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 3px 7px 3px 7px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(83, 81, 81);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.445);
+    transition: background-color 0.3s ease-in-out;
+    font-family: Manrope, sans-serif;
+    color: white;
+
+}
+
+.phone-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Стили для специфических кнопок (Меню, Ок, Назад) */
+.special-button {
+    background-color: #3d6c8b;
+    color: #fff;
+    font-size: 14px;
+}
+
+.phone-button-line {
+    text-align: center;
+}
+
+.ok-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background-color: #2b4658;
+}
+
+/*
+.up-down-button {
+    width: 50px;
+    height: 35px;
+    background-color: #2b4658;
+}
+*/
+
+#current-time {
+    font-size: 50px;
+}
+
+ .left-right-button {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 0px;
+    background-color: #2b4658;
+    font-size: 12px;
+    
+ }
+
+ .first-line {
+    margin: 1px;
+ }
+
+ .second-line {
+    margin:0px;
+    font-size: 10px;
+ }
+
+.call-button {
+    height: 25px;
+    margin: 0px;
+}
+
+.cancel-call-button {
+    height: 25px;
+    margin: 0px;
+}
+
+.menu-button {
+    height: 20px;
+}
+
+.call-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 10px 15px;
+}
