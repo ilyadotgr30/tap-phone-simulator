@@ -39,6 +39,14 @@ body {
     color: #fff;
     font-family: Manrope, sans-serif;
     border-bottom: 10px solid #2e2c2c ;
+    position: relative;
+}
+
+.down-screen-buttons {
+    position: absolute;
+    bottom: 0;
+    margin: 0px 10px 5px 10px;
+
 }
 
 .phone-button-area {
@@ -142,3 +150,4 @@ body {
     justify-content: space-between;
     margin: 0px 15px 10px 15px;
 }
+
