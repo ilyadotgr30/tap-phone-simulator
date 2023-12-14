@@ -91,14 +91,6 @@ body {
     background-color: #2b4658;
 }
 
-/*
-.up-down-button {
-    width: 50px;
-    height: 35px;
-    background-color: #2b4658;
-}
-*/
-
 #current-time {
     font-size: 50px;
 }
@@ -135,6 +127,7 @@ body {
 
 .menu-button {
     height: 20px;
+    
 }
 
 .call-line {
@@ -142,3 +135,32 @@ body {
     justify-content: space-between;
     margin: 0px 15px 10px 15px;
 }
+
+#number-input {
+    width: 90%;
+    margin-top: 50px;
+    padding: 2px 15px 2px 15px;
+    height: 50px;
+    font-size: 35px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    line-height: inherit;
+    background-color: #3d6c8b;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#number-input::placeholder {
+    color: #e0e0e0;
+    font-size: 20px;
+}
+
+#number-input:focus {
+    /* Добавьте свои стили для состояния фокуса (если необходимо) */
+}
+
