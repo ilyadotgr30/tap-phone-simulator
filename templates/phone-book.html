@@ -30,32 +30,76 @@
         <div class="phone-button-area">
             <!-- Специальные кнопки наверху -->
             <div class="phone-button-line"> 
-                <button class="phone-button special-button">Меню</button>
+                <button class="phone-button special-button menu-button" onclick="redirectToMenu()">Меню</button>
                 <button class="phone-button special-button left-right-button up-down-button up-button">▲</button>
                 <button class="phone-button special-button ok-button">Ок</button>
                 <button class="phone-button special-button left-right-button up-down-button down-button">▼</button>
-                <button class="phone-button special-button" onclick="goBack()">Назад</button>
+                <button class="phone-button special-button menu-button" onclick="goBack()">Назад</button>
             </div>
+             <div class="phone-button-line call-line">
+                <button class="phone-button special-button call-button">
+                    <img src="../static/img/call-ico.png" height="20px">
+                </button>
+                <button class="phone-button special-button cancel-call-button">
+                    <img src="../static/img/cancel-call-ico.png" height="23px">
+                </button>
+             </div>
             <!-- Остальные кнопки -->
             <div class="phone-button-line"> 
-                <button class="phone-button">1</button>
-                <button class="phone-button">2</button>
-                <button class="phone-button">3</button>
+                <button class="phone-button">
+                    <span class="first-line">1</span>
+                    <span class="second-line"></span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">2</span>
+                    <span class="second-line">абвг</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">3</span>
+                    <span class="second-line">дежз</span>
+                </button>
             </div>
             <div class="phone-button-line">
-                <button class="phone-button">4</button>
-                <button class="phone-button">5</button>
-                <button class="phone-button">6</button>
+                <button class="phone-button">
+                    <span class="first-line">4</span>
+                    <span class="second-line">ийкл</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">5</span>
+                    <span class="second-line">мноп</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">6</span>
+                    <span class="second-line">рсту</span>
+                </button>
             </div>
             <div class="phone-button-line">
-                <button class="phone-button">7</button>
-                <button class="phone-button">8</button>
-                <button class="phone-button">9</button>
+                <button class="phone-button">
+                    <span class="first-line">7</span>
+                    <span class="second-line">фхцч</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">8</span>
+                    <span class="second-line">шщъы</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">9</span>
+                    <span class="second-line">ьэюя</span>
+                </button>
             </div>
             <div class="phone-button-line">
-                <button class="phone-button">*</button>
-                <button class="phone-button">0</button>
-                <button class="phone-button">#</button>
+                <button class="phone-button">
+                    <span class="first-line">*</span>
+                    <span class="second-line">.</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">0</span>
+                    <span class="second-line">_</span>
+                </button>
+                <button class="phone-button">
+                    <span class="first-line">#</span>
+                    <span class="second-line"></span>
+                </button>
             </div>
         </div>
     </div>

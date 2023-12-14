@@ -15,7 +15,7 @@ body {
 
 .my-phone-device {
     width: 300px;
-    height: 600px;
+    height: 620px;
     border: 18px solid #2e2c2c;
     border-radius: 50px;
     overflow: hidden;
@@ -51,18 +51,18 @@ body {
 }
 
 .phone-button {
-    width: 70px; /* уменьшен размер */
-    height: 35px; /* уменьшен размер */
+    width: 70px;
+    height: 35px; 
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin: 5px;
+    margin: 3px 7px 3px 7px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     background-color: rgb(83, 81, 81);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.445);
     transition: background-color 0.3s ease-in-out;
     font-family: Manrope, sans-serif;
     color: white;
@@ -89,10 +89,6 @@ body {
     height: 40px;
     margin: 0px;
     background-color: #2b4658;
-}
-
-#current-time {
-    font-size: 50px;
 }
 
  .left-right-button {
@@ -128,4 +124,33 @@ body {
 .menu-type {
     font-size: 20px;
     font-weight: bold;
+}
+
+.first-line {
+    margin: 1px;
+ }
+
+ .second-line {
+    margin:0px;
+    font-size: 10px;
+ }
+
+.call-button {
+    height: 25px;
+    margin: 0px;
+}
+
+.cancel-call-button {
+    height: 25px;
+    margin: 0px;
+}
+
+.menu-button {
+    height: 20px;
+}
+
+.call-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 10px 15px;
 }
